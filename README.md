@@ -21,14 +21,6 @@ claude mcp add supervisor \
   -- npx -y claude-notifier-mcp
 ```
 
-```
-claude mcp add supervisor \
-  -e TELEGRAM_BOT_TOKEN=your_token \
-  -e TELEGRAM_CHAT_ID=your_chat_id \
-  -s user \
-  -- npx -y claude-notifier-mcp
-```
-
 ## 2. Ground Rule - start with this prompt.
 ```
 Ground Rule for this Project:
