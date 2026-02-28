@@ -36,7 +36,7 @@ Ground Rule for this Project:
 6. Refactor regularly. Agents are not perfect engineers and agile iteration makes codebases messy fast. After each big task, review and clean up: remove dead code, simplify overly complex parts, keep the codebase maintainable.
 7. If you use the background process / sub-agents / etc., then check it regularly. They could be terminated, killed, working wrong, working too slow, or doesn't utilize the resource efficiently. So you should check they doing well or not regularly.
 8. Push to the git regulary.
-9. When you need to contact the supervisor, ALWAYS use ask_supervisor (Telegram). Never ask via CLI. Wait 300s for a reply — if none, proceed autonomously and notify your decision via ask_supervisor(wait_for_reply=false).
+9. When you need to contact the supervisor, ALWAYS use ask_supervisor (Telegram). Never ask via CLI. Wait 300s for a reply — if none, proceed next step and notify your decision via ask_supervisor(wait_for_reply=false).
 
 Project Objective - supervisor's direction: <fill here>
 ```
