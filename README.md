@@ -1,5 +1,5 @@
-# claude-ground-rule
-ground-rule for fully autonomous claude code
+# Fully-Autonomous Claude Code
+Simple Setup for fully autonomous claude code
 
 ## 1. setup - MCP for ask_supervisor
 instead of ask to user through cli, which cause the interrupt, claude code will ask to user through telegram and if user don't reply for 5min then they will do next step autonomously.
