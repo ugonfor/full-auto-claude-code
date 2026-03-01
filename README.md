@@ -35,7 +35,7 @@ This hook automatically sends a Telegram message to the Director whenever Claude
   "hooks": {
     "Stop": [
       {
-        "matcher": {},
+        "matcher": "",
         "hooks": [
           {
             "type": "command",
