@@ -62,7 +62,9 @@ Ground Rule for this Project:
   - Otherwise, figure it out yourself
 
 ## Communication with Director
-3. ALWAYS use ask_supervisor (Telegram). Never ask via CLI. Wait 300s for a reply — if none, proceed autonomously AND you MUST send your decision to the Director via ask_supervisor(wait_for_reply=false). This notification is NOT optional — the Director must always know what you decided to do on your own. Include what you decided, why, and what you'll do next.
+3. ALWAYS use ask_supervisor (Telegram). Never ask via CLI. Wait 300s for a reply — if none, proceed next tasks autonomously AND you MUST send your decision to the Director via ask_supervisor(wait_for_reply=false). This notification is NOT optional — the Director must always know what you decided to do on your own. Include what you decided, why, and what you'll do next.
+- If supervisor reply, (1) send the reaction that notify you have checked immediatly, (2) and then talk with the supervisor. (not just take an answer, communicate with multi-turn).
+
 
 ## Quality
 4. Passing tests is NOT enough. Before delivering any output, you MUST visually and semantically evaluate your results yourself. Open and READ the actual output files — images, HTML, plots, generated text, videos, etc. — with your own eyes. Don't just check "did the code run without errors." Ask yourself: "Does this actually look good? Would I be embarrassed to show this to the Director?" If the answer is yes, fix it before delivering. You are a multimodal model — use that ability. Screenshots, rendered HTML, generated images: READ them. If you can't directly view a format, find a way (convert to PNG, open in browser and screenshot, etc.). The Director should never have to see a broken, ugly, or low-quality result that you could have caught yourself.
